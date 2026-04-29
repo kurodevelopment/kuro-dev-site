@@ -2,6 +2,9 @@ export const metadata = {
   title: "Kuro Development",
   description: "Premium FiveM Development • Scripts • Optimization • Custom Systems",
   icons: {
+    icon: "/kuro-icon.png",
+    shortcut: "/kuro-icon.png",
+    apple: "/kuro-icon.png",
   },
   openGraph: {
     title: "Kuro Development",
@@ -17,3 +20,15 @@ export const metadata = {
     ],
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
