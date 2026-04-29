@@ -2,7 +2,9 @@ export const metadata = {
   title: "Kuro Development",
   description: "Premium FiveM Development • Scripts • Optimization • Custom Systems",
   icons: {
-    icon: "/favicon.ico?v=10",
+    icon: "/kuro-icon.png?v=100",
+    shortcut: "/kuro-icon.png?v=100",
+    apple: "/kuro-icon.png?v=100",
   },
   openGraph: {
     title: "Kuro Development",
@@ -11,7 +13,7 @@ export const metadata = {
     siteName: "Kuro Development",
     images: [
       {
-        url: "/og-image.png", // you can add this later
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
