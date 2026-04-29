@@ -2,7 +2,7 @@ export const metadata = {
   title: "Kuro Development",
   description: "Premium FiveM Development • Scripts • Optimization • Custom Systems",
   icons: {
-    icon: "/kuro-favicon.ico",
+    icon: "/favicon.ico?v=10",
   },
   openGraph: {
     title: "Kuro Development",
